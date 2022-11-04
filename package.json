@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-lambda-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "nextjs-lambda-cdk": "bin/nextjs-lambda-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.1",
+    "@types/node": "18.11.9",
+    "@types/prettier": "2.7.1",
+    "jest": "^29.2.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.8.1",
+    "typescript": "~4.8.4"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.50.0",
+    "constructs": "^10.1.148",
+    "cdk-ecr-deployment": "^2.5.6"
+  }
+}
