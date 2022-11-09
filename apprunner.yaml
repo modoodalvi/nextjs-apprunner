@@ -7,7 +7,7 @@ build:
       - npm run build --prefix app
 run:
   runtime-version: 16.17.1
-  command: node app/.next/standalone server.js
+  command: node app/.next/standalone/server.js
   network:
     port: 3000
     env: APP_PORT
